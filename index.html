@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->r
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive portfolio website AHMED MOHAMED</title>
+</head>
+<body>
+   <!--==================== LOADER ====================-->
+<div class="loader">
+    <div class="loader__container">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">AHMED MOHAMED</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!-- CUSTOM CURSOR -->
+        <div class="cursor" id="cursor"></div>
+        
+        <!-- SCROLL PROGRESS BAR -->
+        <div class="scroll__bar" id="scroll-bar"></div>
+        
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Hello, <span>I'm</span>
+                        </h3>
+
+                        <h1 class="home__title">Ahmed Mohamed</h1>
+                        
+                        <h3 class="home__education">Frontend Developer</h3>
+
+                        <p class="home__description">
+                            With knowledge in web development and 
+                            design, I offer the best projects resulting 
+                            in quality work.
+                        </p>
+
+                        <a href="#contact" class="button">Let's Talk</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
+                            <i class="ri-dribbble-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__image">
+                    <svg class="home__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                            170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                            447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 
+                            270.426 587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 
+                            447.468 36.843 438.894V191.606C36.843 183.032 41.4174 175.109 48.843 
+                            170.822L263 47.1782Z"/>
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                            170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                            447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                            587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                            438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                            <rect x="37" y="47" width="476" height="536" fill="url(#pattern0)"/>
+                        </g>
+                        <rect x="37" y="47" width="476" height="536" fill="url(#pattern0)"/>
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                            </pattern>
+                            <image id="imageBlob" width="640" height="925" href="assets/img/home-img.png"/>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="section__subtitle">
+                        My <span>Intro</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        About Me
+                    </h2>
+
+                    <p class="about__description">
+                        Frontend developer, I create web pages with 
+                        UI / UX user interface, I have years of 
+                        experience and many clients are happy with 
+                        the projects carried out.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+                <div class="about__image">
+                    <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                            170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                            447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                            587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                            438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                            <rect x="37" y="47" width="476" height="536" fill="url(#pattern1)"/>
+                            
+                            <path d="M285 51.0779C279.851 48.3707 273.704 48.3707 268.556 51.0779L85.6829 
+                            162.747C80.5348 165.454 77.4611 170.82 77.4611 176.657V400.328C77.4611 406.164 
+                            80.5348 411.531 85.6829 414.238L268.556 525.908C273.704 528.615 279.851 528.615 
+                            285 525.908L467.873 414.238C473.021 411.531 476.095 406.164 476.095 400.328V176.657C476.095 
+                            170.82 473.021 165.454 467.873 162.747L285 51.0779Z" stroke="var(--first-color)" stroke-width="10"/>
+                        </g>
+                        <rect x="37" y="47" width="476" height="536" fill="url(#pattern1)"/>
+                        <defs>
+                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                            </pattern>
+                            <image id="imageBorder" width="640" height="940" href="assets/img/about-img.png"/>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+                My <span>Jobs</span>
+            </h3>
+
+            <h2 class="section__title">
+                Recent Projects
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <img src="assets/img/project-img-1.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-2.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">ECommerce Store</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-3.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Design</span>
+
+                        <h2 class="projects__title">Application Design</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-4.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Animation</span>
+
+                        <h2 class="projects__title">Animation Prototypes</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-5.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Design</span>
+
+                        <h2 class="projects__title">Web Applications</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-6.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Mobile App</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== WORK ====================-->
+        <section class="work section">
+            <h3 class="section__subtitle">
+                My <span>Journey</span>
+            </h3>
+
+            <h2 class="section__title">
+                Professional Experience
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <h3 class="work__title">Frontend Developer</h3>
+                    <span class="work__subtitle">Technical Solutions - 2020/2023</span>
+                    <p class="work__description">
+                        Development and maintenance of web pages using technologies 
+                        and frameworks such as React, Tailwind CSS and TypeScript.
+                    </p>
+                </div>
+
+                <div class="work__card">
+                    <h3 class="work__title">Software Engineer</h3>
+                    <span class="work__subtitle">Digital Agency - 2019/2020</span>
+                    <p class="work__description">
+                        Creation and optimization of high-impact web projects using 
+                        modern technologies for various clients worldwide.
+                    </p>
+                </div>
+
+                <div class="work__card">
+                    <h3 class="work__title">UI/UX Designer</h3>
+                    <span class="work__subtitle">Creative Studios - 2018/2019</span>
+                    <p class="work__description">
+                        Design and prototyping of intuitive user interfaces and 
+                        improved user experiences for mobile and web applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section">
+            <h3 class="section__subtitle">
+                My <span>Services</span>
+            </h3>
+
+            <h2 class="section__title">
+                What I Do
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line services__icon"></i>
+
+                    <h2 class="services__title">Web Developer</h2>
+
+                    <p class="services__description">
+                        Development of custom web pages. Using 
+                        current technologies and libraries of the 
+                        labor field.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pantone-line services__icon"></i>
+
+                    <h2 class="services__title">UI/UX Designer</h2>
+
+                    <p class="services__description">
+                        I offer design of web interfaces and mobile 
+                        applications, made with professional programs.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services__icon"></i>
+
+                    <h2 class="services__title">Graphic Design</h2>
+
+                    <p class="services__description">
+                        I make designs at the client's request, banners,
+                        logos, business cards, among others.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials section">
+            <h3 class="section__subtitle">
+                My <span>Testimonials</span>
+            </h3>
+
+            <h2 class="section__title">
+                What They Say
+            </h2>
+
+            <div class="testimonials__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonials__card swiper-slide">
+                        <img src="assets/img/testimonial-1.png" alt="testimonials image" class="testimonials__img">
+                        
+                        <h2 class="testimonials__name">Jen Mulier</h2>
+                        <span class="testimonials__subtitle">Client</span>
+                        
+                        <p class="testimonials__description">
+                            Working with you is always a pleasant experience, 
+                            thank you for your commitment.
+                        </p>
+                    </div>
+
+                    <div class="testimonials__card swiper-slide">
+                        <img src="assets/img/testimonial-2.png" alt="testimonials image" class="testimonials__img">
+                        
+                        <h2 class="testimonials__name">Mary Lens</h2>
+                        <span class="testimonials__subtitle">Client</span>
+                        
+                        <p class="testimonials__description">
+                            I am very grateful for the work he did, the result 
+                            exceeded my expectations.
+                        </p>
+                    </div>
+
+                    <div class="testimonials__card swiper-slide">
+                        <img src="assets/img/testimonial-3.png" alt="testimonials image" class="testimonials__img">
+                        
+                        <h2 class="testimonials__name">Jack Hughes</h2>
+                        <span class="testimonials__subtitle">Client</span>
+                        
+                        <p class="testimonials__description">
+                            Excellent professional, he delivered the project 
+                            on time with incredible quality.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Get In <span>Touch</span>
+            </h3>
+
+            <h2 class="section__title">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Enter your email" class="contact__input">
+                    </div>
+
+                    <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="button contact__button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Ahmed Mohamed</h1>
+            <h2 class="footer__subtitle">Frontend Developer</h2>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright Bedimcode. All rights reserved
+            </span>
+        </div>
+    </footer>
+    
+  <!--=============== SCROLLREVEAL ===============-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--=============== ANIME JS ===============-->
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
